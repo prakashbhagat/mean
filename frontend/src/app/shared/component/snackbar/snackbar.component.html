@@ -1,0 +1,11 @@
+<div class="fixed bottom-4 right-4 space-y-2 z-50">
+  <div *ngFor="let msg of messages"
+       [ngClass]="{
+         'bg-green-500': msg.type === 'success',
+         'bg-red-500': msg.type === 'error',
+         'bg-blue-500': msg.type === 'info'
+       }"
+       class="text-white px-4 py-2 rounded shadow-lg animate-slide-in">
+    {{ msg.message }}
+  </div>
+</div>
