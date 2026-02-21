@@ -68,7 +68,7 @@ npm run test
 
 ## 🎨 Frontend Setup
 
-The frontend is an Angular 19 application featuring Tailwind CSS styling and state-managed pagination.
+The frontend is an Angular 21 application featuring Tailwind CSS styling and state-managed pagination.
 
 ### 1. Installation
 Open a new terminal window, navigate to the frontend directory, and install dependencies:
